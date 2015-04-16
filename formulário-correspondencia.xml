@@ -1,0 +1,181 @@
+<form-definitions>
+        <form name ="correspondencia">
+                <page number="1">
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>contributor</dc-element>
+                        <dc-qualifier>author</dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>*Remetente:</label>
+                        <input-type>name</input-type>
+                        <hint>Digite o nome do Remetente da correspondência</hint>
+                        <required>Você deve digitar o nome do remetente no campo acima.</required>
+                </field>
+               
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>contributor</dc-element>
+                        <dc-qualifier></dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>*Destinatário:</label>
+                        <input-type>name</input-type>
+                        <hint>Digite o nome do Destinatário da correspondência</hint>
+                        <required>Você deve digitar o nome do destinatário no campo acima.</required>
+                </field>
+               
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>title</dc-element>
+                        <dc-qualifier></dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>Título:</label>
+                        <input-type>onebox</input-type>
+                        <hint>Digite aqui o Título da correspondencia</hint>
+                        <required></required>
+                </field>
+ 
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>origem</dc-element>
+                        <dc-qualifier>local</dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>*Local:</label>
+                        <input-type>onebox</input-type>
+                        <hint>Local em que foi escrita a correspondência</hint>
+                        <required>Você deve digitar o local em que foi escrita a correspondência.</required>
+                </field>
+ 
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>date</dc-element>
+                        <dc-qualifier>local</dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>*Data de Criação:</label>
+                        <input-type>date</input-type>
+                        <hint>Digite aqui a data de criação da correspondencia.</hint>
+                        <required>Você deve digitar a data de criação da correspondência</required>
+                </field>
+ 
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>subject</dc-element>
+                        <dc-qualifier></dc-qualifier>
+                        <repeatable>true</repeatable>
+                        <label>Palavras-Chave:</label>
+                        <input-type>twobox</input-type>
+                        <hint>Digite aqui as palavras chaves que identificam essa correspondência</hint>
+                        <required></required>
+                </field>
+ 
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>format</dc-element>
+                        <dc-qualifier>extend</dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>Número de paginas da Carta</label>
+                        <input-type>onebox</input-type>
+                        <hint>Digite aqui o número de páginas na correspondência.</hint>
+                        <required></required>                   
+                </field>
+ 
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>language</dc-element>
+                        <dc-qualifier></dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>Idioma:</label>
+                        <input-type>onebox</input-type>
+                        <hint>Digite aqui o idioma em que essa correspondência foi escrita.</hint>
+                        <required></required>
+                </field>
+               
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>description</dc-element>
+                        <dc-qualifier>abstract</dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>*Resumo:</label>
+                        <input-type>textarea</input-type>
+                        <hint>Faça aqui um breve resumo sobre o documento.</hint>
+                        <required>Você deve fazer um breve resumo sobre o documento</required>
+                </field>
+               
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>description</dc-element>
+                        <dc-qualifier></dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>Observações:</label>
+                        <input-type>textarea</input-type>
+                        <hint>Notas importantes sobre o documento.</hint>
+                        <required></required>
+                </field>
+ 
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>rights</dc-element>
+                        <dc-qualifier>holder</dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>*Detentor de direitos:</label>
+                        <input-type>onebox</input-type>
+                        <hint>Coloque aqui o dententor de direitos sobreessa correspondência</hint>
+                        <required>Você deve colocar a licença</required>
+                </field>
+ 
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>description</dc-element>
+                        <dc-qualifier>probenance</dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>Proviniência do arcevo:</label>
+                        <input-type>onebox</input-type>
+                        <hint></hint>
+                        <required></required>
+                </field>
+               
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>rights</dc-element>
+                        <dc-qualifier></dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>*Licença:</label>
+                        <input-type>onearea</input-type>
+                        <hint>Direito de reprodução.</hint>
+                        <required></required>
+                </field>
+ 
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>date</dc-element>
+                        <dc-qualifier></dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>Data de chegada:</label>
+                        <input-type>date</input-type>
+                        <hint>Data de chegada ao acervo da UFPE.</hint>
+                        <required></required>
+                </field>
+ 
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>type</dc-element>
+                        <dc-qualifier></dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>Correspondência</label>
+                        <input-type></input-type>
+                        <hint></hint>
+                        <required></required>
+                </field>
+       
+                <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>subject</dc-element>
+                        <dc-qualifier>classificaion</dc-qualifier>
+                        <repeatable></repeatable>
+                        <label>Código de classificação:</label>
+                        <input-type>onebox</input-type>
+                        <hint>Localização na estante</hint>
+                        <required></required>
+                </field>
+                </page>
+        </form>
+ </form-definitions>
