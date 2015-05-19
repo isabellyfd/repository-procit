@@ -1,0 +1,23 @@
+  <root>
+  <value-pairs value-pairs-name="typ2" dc-term="type">
+     <pair>
+       <displayed-value>Dissertacao</displayed-value>
+       <stored-value>Dissertacao</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Tese</displayed-value>
+       <stored-value>Tese</stored-value>
+     </pair>
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="typ3" dc-term="type">
+     <pair>
+       <displayed-value>Mestrado</displayed-value>
+       <stored-value>mestrado</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Doutorado</displayed-value>
+       <stored-value>doutorado</stored-value>
+     </pair>
+   </value-pairs>
+ </root>

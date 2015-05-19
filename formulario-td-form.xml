@@ -1,0 +1,183 @@
+<form name="TD">
+     <page number="1">
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>contributor</dc-element>
+       <dc-qualifier>author</dc-qualifier>
+       <repeatable>True</repeatable>
+       <label>Autor(es)*</label>
+       <input-type>name</input-type>
+       <hint>Digite o(s) nome(s) do(s) autor(es) da tese ou dissertacao.</hint>
+       <required>Digite o nome de pelo menos um autor.</required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>contributor</dc-element>
+       <dc-qualifier>advisor</dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Orientador*</label>
+       <input-type>name</input-type>
+       <hint>Digite o nome do orientador da tese ou dissertacao.</hint>
+       <required>Digite o nome do orientador.</required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>contributor</dc-element>
+       <dc-qualifier>coadvisor</dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Coorientador</label>
+       <input-type>name</input-type>
+       <hint>Digite o nome do co-orientador da tese ou dissertacao.</hint>
+       <required></required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>title</dc-element>
+       <dc-qualifier></dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Titulo*</label>
+       <input-type>onebox</input-type>
+       <hint>Digite o titulo da tese ou dissertacao.</hint>
+       <required>Digite o titulo da tese ou dissertacao.</required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>title</dc-element>
+       <dc-qualifier>alternative</dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Titulo Alternativo</label>
+       <input-type>onebox</input-type>
+       <hint>Digite o titulo da tese ou dissertacao em outro idioma.</hint>
+       <required></required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>type</dc-element>
+       <dc-qualifier></dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Tipo*</label>
+       <input-type value-pairs-name="typ2">dropdown</input-type>
+       <hint>Selecione o tipo</hint>
+       <required>Por favor, selecione o tipo.</required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>description</dc-element>
+       <dc-qualifier>abstract</dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Resumo*</label>
+       <input-type>textarea</input-type>
+       <hint>Digite o resumo (abstract) da tese ou dissertacao.</hint>
+       <required>Digite o resumo.</required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>description</dc-element>
+       <dc-qualifier>abstract</dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Resumo (Outro idioma)</label>
+       <input-type>textarea</input-type>
+       <hint>Digite o resulmo (abstract) da tese ou dissertacao em outro idioma.</hint>
+       <required></required>
+      </field>
+      
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>subject</dc-element>
+       <dc-qualifier></dc-qualifier>
+       <repeatable>True</repeatable>
+       <label>Palavras-chave</label>
+       <input-type>onebox</input-type>
+       <hint>Digite as palavras chave da tese ou dissertacao, uma a uma.</hint>
+       <required></required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>language</dc-element>
+       <dc-qualifier>iso</dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Idioma</label>
+       <input-type>onebox</input-type>
+       <hint>Digite qual idioma predomina na tese ou dissertacao.</hint>
+       <required></required>
+      </field>
+     </page>
+     
+     <page number="2">
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>degree</dc-element>
+       <dc-qualifier>grantor</dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Instituicao*</label>
+       <input-type>onebox</input-type>
+       <hint>Digite a institucao a qual a tese ou dissertacao e vinculada.</hint>
+       <required>Digite a instituicao de vinculo.</required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>degree</dc-element>
+       <dc-qualifier>program</dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Programa de Pos-Graduacao*</label>
+       <input-type>onebox</input-type>
+       <hint>Digite o nome do programa de graduacao associado a tese ou dissertacao.</hint>
+       <required>Digite o nome do programa.</required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>degree</dc-element>
+       <dc-qualifier>local</dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Local de defesa*</label>
+       <input-type>onebox</input-type>
+       <hint>Digite em que a tese ou dissertacao foi defendida.</hint>
+       <required>Digite o local.</required>
+      </field>
+
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>date</dc-element>
+       <dc-qualifier></dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Data de defesa*</label>
+       <input-type>date</input-type>
+       <hint>Digite a data de defesa da tese ou dissertacao.</hint>
+       <required>Digite a data.</required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>degree</dc-element>
+       <dc-qualifier>level</dc-qualifier>
+       <repeatable>False</repeatable>
+       <label>Nivel*</label>
+       <input-type value-pairs-name="typ3">dropdown</input-type>
+       <hint>Selecione o nivel.</hint>
+       <required>Selecione o nivel.</required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>description</dc-element>
+       <dc-qualifier>sponsorship</dc-qualifier>
+       <repeatable>True</repeatable>
+       <label>Orgao suplementar</label>
+       <input-type>onebox</input-type>
+       <hint>Digite o nome do instituicao patrocinadora.</hint>
+       <required></required>
+      </field>
+
+     </page> 
+    </form>
