@@ -1,7 +1,7 @@
-  <root>
-  <value-pairs value-pairs-name="typ2" dc-term="type">
+
+   <value-pairs value-pairs-name="typ2" dc-term="type">
      <pair>
-       <displayed-value>Dissertacao</displayed-value>
+       <displayed-value>DissertaÃ§Ã£o</displayed-value>
        <stored-value>Dissertacao</stored-value>
      </pair>
      <pair>
@@ -19,5 +19,3 @@
        <displayed-value>Doutorado</displayed-value>
        <stored-value>doutorado</stored-value>
      </pair>
-   </value-pairs>
- </root>
