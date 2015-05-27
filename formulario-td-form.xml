@@ -38,10 +38,10 @@
        <dc-element>title</dc-element>
        <dc-qualifier></dc-qualifier>
        <repeatable>false</repeatable>
-       <label>TÃ¯tulo*</label>
+       <label>TÃtulo*</label>
        <input-type>onebox</input-type>
-       <hint>Digite o tÃ¯tulo da tese ou dissertaÃ§Ã£o.</hint>
-       <required>Digite o tÃ¯tulo da tese ou dissertaÃ§Ã£o.</required>
+       <hint>Digite o tÃtulo da tese ou dissertaÃ§Ã£o.</hint>
+       <required>Digite o tÃtulo da tese ou dissertaÃ§Ã£o.</required>
       </field>
 
       <field>
@@ -49,9 +49,9 @@
        <dc-element>title</dc-element>
        <dc-qualifier>alternative</dc-qualifier>
        <repeatable>false</repeatable>
-       <label>TÃ¯tulo Alternativo</label>
+       <label>TÃtulo Alternativo</label>
        <input-type>onebox</input-type>
-       <hint>Digite o tÃ¯tulo da tese ou dissertaÃ§Ã£o em outro idioma.</hint>
+       <hint>Digite o tÃtulo da tese ou dissertaÃ§Ã£o em outro idioma.</hint>
        <required></required>
       </field>
 
@@ -119,8 +119,8 @@
        <repeatable>false</repeatable>
        <label>InstituiÃ§Ã£o*</label>
        <input-type>onebox</input-type>
-       <hint>Digite a instituiÃ§Ã£o a qual a tese ou dissertaÃ§Ã£o tem vÃ¯nculo.</hint>
-       <required>Digite a instituicao de vÃ¯nculo.</required>
+       <hint>Digite a instituiÃ§Ã£o a qual a tese ou dissertaÃ§Ã£o tem vÃnculo.</hint>
+       <required>Digite a instituicao de vÃnculo.</required>
       </field>
 
       <field>
@@ -128,10 +128,10 @@
        <dc-element>degree</dc-element>
        <dc-qualifier>program</dc-qualifier>
        <repeatable>false</repeatable>
-       <label>Programa de Pos-GraduaÃ§Ã£o*</label>
-       <input-type>onebox</input-type>
-       <hint>Digite o nome do programa de graduaÃ§Ã£o associado a tese ou dissertaÃ§Ã£o.</hint>
-       <required>Digite o nome do programa.</required>
+       <label>Programa de PÃ³s-GraduaÃ§Ã£o*</label>
+       <input-type value-pairs-name="posG">dropdown</input-type>
+       <hint>Selecione o programa de pÃ³s graduaÃ§Ã£o associado a tese ou dissertaÃ§Ã£o.</hint>
+       <required>Selecione o programa</required>
       </field>
 
       <field>
@@ -162,10 +162,10 @@
        <dc-element>degree</dc-element>
        <dc-qualifier>level</dc-qualifier>
        <repeatable>false</repeatable>
-       <label>NÃ¯vel*</label>
+       <label>NÃvel*</label>
        <input-type value-pairs-name="typ3">dropdown</input-type>
-       <hint>Selecione o nÃ¯vel.</hint>
-       <required>Selecione o nível.</required>
+       <hint>Selecione o nÃvel.</hint>
+       <required>Selecione o nÃvel.</required>
       </field>
 
       <field>
@@ -173,7 +173,7 @@
        <dc-element>description</dc-element>
        <dc-qualifier>sponsorship</dc-qualifier>
        <repeatable>true</repeatable>
-       <label>Orgão suplementar</label>
+       <label>OrgÃ£o suplementar</label>
        <input-type>onebox</input-type>
        <hint>Digite o nome do instituiÃ§Ã£o patrocinadora.</hint>
        <required></required>
@@ -181,3 +181,4 @@
 
      </page> 
     </form>
+
