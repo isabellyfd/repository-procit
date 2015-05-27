@@ -38,10 +38,10 @@
        <dc-element>title</dc-element>
        <dc-qualifier></dc-qualifier>
        <repeatable>false</repeatable>
-       <label>TÃtulo*</label>
+       <label>TÃ¯tulo*</label>
        <input-type>onebox</input-type>
-       <hint>Digite o nome do tÃtulo da correspondÃªncia</hint>
-       <required>Por favor, digite o nome do tÃtulo da correspondÃªncia.</required>
+       <hint>Digite o nome do tÃ¯tulo da correspondÃªncia</hint>
+       <required>Por favor, digite o nome do tÃ¯tulo da correspondÃªncia.</required>
       </field>
 
       <field>
