@@ -19,6 +19,7 @@
        <displayed-value>Doutorado</displayed-value>
        <stored-value>doutorado</stored-value>
      </pair>
+     
    <value-pairs value-pairs-name="posG" dc-term="identifier">
       <pair>
         <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em AdministraÃ§Ã£o</displayed-value>
@@ -37,7 +38,7 @@
         <stored-value>Programa de Pos Graduacao em Artes Visuais</stored-value>
       </pair>
       <pair>
-        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em BiofÃsica</displayed-value>
+        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em BiofÃ¯sica</displayed-value>
         <stored-value>Programa de Pos Graduacao em Biofisica</stored-value>
       </pair>
       <pair>
@@ -77,8 +78,8 @@
         <stored-value>Programa de Pos Graduacao em Ciencia de Materiais</stored-value>
       </pair>
       <pair>
-        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em Ciência Política</displayed-value>
-        <stored-value>Programa de Pos Graduacao em CiÃªncia PolÃ¯tica</stored-value>
+        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em CiÃªncia PolÃ¯tica</displayed-value>
+        <stored-value>Programa de Pos Graduacao em Ciencia Politica</stored-value>
       </pair>
       <pair>
         <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em CiÃªncias BiolÃ³gicas</displayed-value>
@@ -138,14 +139,14 @@
       </pair>
       <pair>
         <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em EducaÃ§Ã£o</displayed-value>
-        <stored-value>Programa de Pos Graduacao em Educação</stored-value>
+        <stored-value>Programa de Pos Graduacao em Educacao</stored-value>
       </pair>
       <pair>
         <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em EducaÃ§Ã£o ContemporÃ¢nea / CAA</displayed-value>
         <stored-value>Programa de Pos Graduacao em Educacao Contemporanea / CAA</stored-value>
       </pair>
       <pair>
-        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em Educação MatemÃ¡tica e TecnolÃ³gicas</displayed-value>
+        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em EducaÃ§Ã£o MatemÃ¡tica e TecnolÃ³gicas</displayed-value>
         <stored-value>Programa de Pos Graduacao em Educacao Matematica e Tecnologicas</stored-value>
       </pair>
       <pair>
@@ -181,7 +182,7 @@
         <stored-value>Programa de Pos Graduacao em Engenharia Mineral</stored-value>
       </pair>
       <pair>
-        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em Engenharia QuÃmica</displayed-value>
+        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em Engenharia QuÃ¯mica</displayed-value>
         <stored-value>Programa de Pos Graduacao em Engenharia Quimica</stored-value>
       </pair>
       <pair>
@@ -193,7 +194,7 @@
         <stored-value>Programa de Pos Graduacao em Filosofia</stored-value>
       </pair>
       <pair>
-        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em FÃsica</displayed-value>
+        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em FÃ¯sica</displayed-value>
         <stored-value>Programa de Pos Graduacao em Fisica</stored-value>
       </pair>
       <pair>
@@ -217,7 +218,7 @@
         <stored-value>Programa de Pos Graduacao em Gestao e Economia da Saude</stored-value>
       </pair>
       <pair>
-        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em GestÃ£o e PolÃticas Ambientais</displayed-value>
+        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em GestÃ£o e PolÃ¯ticas Ambientais</displayed-value>
         <stored-value>Programa de Pos Graduacao em Gestao e Politicas Ambientais</stored-value>
       </pair>
       <pair>
@@ -231,6 +232,10 @@
       <pair>
         <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em InovaÃ§Ã£o TerapÃªutica</displayed-value>
         <stored-value>Programa de Pos Graduacao em Inovacao Terapeutica</stored-value>
+      </pair>
+      <pair>
+        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o Integrada em SaÃºde Coletiva</displayed-value>
+        <stored-value>Programa de Pos Graduacao Integrada em SaÃºde Coletiva</stored-value>
       </pair>
       <pair>
         <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em Letras</displayed-value>
@@ -286,7 +291,7 @@
       </pair>
       <pair>
         <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em QuÃ¯mica</displayed-value>
-        <stored-value>Programa de Pos Graduacao em Química</stored-value>
+        <stored-value>Programa de Pos Graduacao em Quimica</stored-value>
       </pair>
       <pair>
         <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em SaÃºde</displayed-value>
@@ -298,7 +303,7 @@
       </pair>
       <pair>
         <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em SaÃºde da ComunicaÃ§Ã£o Humana</displayed-value>
-        <stored-value>Programa de Pos Graduacao em Saúde da Comunicacao Humana</stored-value>
+        <stored-value>Programa de Pos Graduacao em Saude da Comunicacao Humana</stored-value>
       </pair>
       <pair>
         <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em SaÃºde da CrianÃ§a e do Adolescente</displayed-value>
@@ -324,8 +329,4 @@
         <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o em Tecnologias EnergÃ©ticas e Nuclear</displayed-value>
         <stored-value>Programa de Pos Graduacao em Tecnologias Energeticas e Nuclear</stored-value>
       </pair>
-      <pair>
-        <displayed-value>Programa de PÃ³s GraduaÃ§Ã£o Integrada em SaÃºde Coletiva</displayed-value>
-        <stored-value>Programa de Pos Graduacao Integrada em SaÃºde Coletiva</stored-value>
-      </pair>
-   </value-pairs>
+     </value-pairs>

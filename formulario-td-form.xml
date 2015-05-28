@@ -1,4 +1,4 @@
-    <form name="TD">
+<form name="TD">
      <page number="1">
       <field>
        <dc-schema>dc</dc-schema>
@@ -30,6 +30,17 @@
        <label>Coorientador</label>
        <input-type>name</input-type>
        <hint>Digite o nome do coorientador da tese ou dissertaÃ§Ã£o.</hint>
+       <required></required>
+      </field>
+
+      <field>
+       <dc-schema>dc</dc-schema>
+       <dc-element>identifier</dc-element>
+       <dc-qualifier>citation</dc-qualifier>
+       <repeatable>false</repeatable>
+       <label>CitaÃ§Ã£o</label>
+       <input-type>textarea</input-type>
+       <hint>CitaÃ§Ã£o do autor.</hint>
        <required></required>
       </field>
 
@@ -119,8 +130,8 @@
        <repeatable>false</repeatable>
        <label>InstituiÃ§Ã£o*</label>
        <input-type>onebox</input-type>
-       <hint>Digite a instituiÃ§Ã£o a qual a tese ou dissertaÃ§Ã£o tem vÃnculo.</hint>
-       <required>Digite a instituicao de vÃnculo.</required>
+       <hint>Digite a instituiÃ§Ã£o a qual a tese ou dissertaÃ§Ã£o tem vÃ¯nculo.</hint>
+       <required>Digite a instituicao de vÃ¯nculo.</required>
       </field>
 
       <field>
@@ -181,4 +192,3 @@
 
      </page> 
     </form>
-
