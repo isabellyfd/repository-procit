@@ -698,7 +698,7 @@
        <label>Data de chegada</label>
        <input-type>date</input-type>
        <hint>Data de chegada ao acervo UFPE.</hint>
-       <required>Digite a data de chegada ao acervo.</required>
+       <required></required>
       </field>
 
       <field>
