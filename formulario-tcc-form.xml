@@ -104,7 +104,7 @@
         <dc-element>date</dc-element>
         <dc-qualifier>issued</dc-qualifier>
         <repeatable>false</repeatable>
-        <label>Data de publicaÃ§Ã£</label>
+        <label>Data de publicaÃ§Ã£o</label>
         <input-type>date</input-type>
         <hint>Digite a data em que o Trabalho de ConclusÃ£o de Curso foi publicado.</hint>
         <required></required>
@@ -170,7 +170,7 @@
         <dc-element>degree</dc-element>
         <dc-qualifier>level</dc-qualifier>
         <repeatable>false</repeatable>
-        <label>NÃ¯Ã¯Ã¯vel*</label>
+        <label>NÃ¯vel*</label>
         <input-type value-pairs-name="typ5">dropdown</input-type>
         <hint>Selecione o nÃ¯vel.</hint>
         <required>Digite o nÃ¯vel.</required>
