@@ -1,0 +1,179 @@
+<form name="TCC">
+	<page number="1">
+		<field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>contributor</dc-element>
+        <dc-qualifier>author</dc-qualifier>
+        <repeatable>true</repeatable>
+        <label>Autor(es)*</label>
+        <input-type>name</input-type>
+        <hint>Digite o nome do autor(es) do Trabalho de ConclusÃ£o de Curso</hint>
+        <required>Digite pelo menos o nome de um autor</required>
+    	</field>
+
+    	<field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>contributor</dc-element>
+        <dc-qualifier>advisor</dc-qualifier>
+        <repeatable>true</repeatable>
+        <label>Orientador(es)*</label>
+        <input-type>name</input-type>
+        <hint>Digite o nome do orientador(es) do Trabalho de ConclusÃ£o de Curso.</hint>
+        <required>Digite pelo menos o nome de um orientador.</required>
+    	</field>
+
+    	<field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>contributor</dc-element>
+        <dc-qualifier>coadvisor</dc-qualifier>
+        <repeatable>true</repeatable>
+        <label>Coorientador(es)</label>
+        <input-type>name</input-type>
+        <hint>Digite o nome do coorientador(es) do Trabalho de ConclusÃ£o de Curso.</hint>
+        <required></required>
+    	</field>
+
+    	<field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>title</dc-element>
+        <dc-qualifier></dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>TÃ¯tulo*</label>
+        <input-type>onebox</input-type>
+        <hint>Digite o nome do tÃ¯tulo do Trabalho de ConclusÃ£o de Curso.</hint>
+        <required>Digite o tÃ¯tulo do TCC.</required>
+    	</field>
+
+		<field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>type</dc-element>
+        <dc-qualifier></dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>Tipo*</label>
+        <input-type value-pairs-name="typ4">dropdown</input-type>
+        <hint>Selecione o tipo do domumento.</hint>
+        <required>Selecione o tipo do domumento.</required>
+    	</field>
+
+    	<field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>description</dc-element>
+        <dc-qualifier>abstract</dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>Resumo*</label>
+        <input-type>onebox</input-type>
+        <hint>Digite o resumo (em portuguÃªs) do Trabalho de ConclusÃ£o de Curso.</hint>
+        <required>Digite resumo do TCC.</required>
+    	</field>
+
+    	<field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>description</dc-element>
+        <dc-qualifier>abstract</dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>Resumo (Outro idioma)</label>
+        <input-type>onebox</input-type>
+        <hint>Digite o resumo (abstract) do Trabalho de ConclusÃ£o de Curso em outro idioma.</hint>
+        <required></required>
+    	</field>
+        
+        <field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>language</dc-element>
+        <dc-qualifier>iso</dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>Idioma*</label>
+        <input-type>onebox</input-type>
+        <hint>Digite o idioma que predomina no Trabalho de ConclusÃ£o de Curso.</hint>
+        <required>Digite o idioma.</required>
+        </field>
+
+        <field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>subject</dc-element>
+        <dc-qualifier></dc-qualifier>
+        <repeatable>true</repeatable>
+        <label>Palavra-chave</label>
+        <input-type>onebox</input-type>
+        <hint>Digite as palavras-chave do Trabalho de ConclusÃ£o de Curso, uma a uma.</hint>
+        <required></required>
+        </field>
+
+        <field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>date</dc-element>
+        <dc-qualifier>issued</dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>Data de publicaÃ§Ã£</label>
+        <input-type>date</input-type>
+        <hint>Digite a data em que o Trabalho de ConclusÃ£o de Curso foi publicado.</hint>
+        <required></required>
+        </field>
+
+        <field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>degree</dc-element>
+        <dc-qualifier>grantor</dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>InstituiÃ§Ã£o*</label>
+        <input-type>onebox</input-type>
+        <hint>Digite o nome da instituiÃ§Ã£o a qual o Trabalho de ConclusÃ£o de Curso e vinculado.</hint>
+        <required>Digite o nome da instituiÃ§Ã£o.</required>
+        </field>
+
+        <field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>degree</dc-element>
+        <dc-qualifier>department</dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>Departamento*</label>
+        <input-type>onebox</input-type>
+        <hint>Digite o nome do departamento em que o Trabalho de ConclusÃ£o de Curso foi desenvolvido.</hint>
+        <required>Digite o nome do departamento.</required>
+        </field>
+        
+        <field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>degree</dc-element>
+        <dc-qualifier>local</dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>Local*</label>
+        <input-type>onebox</input-type>
+        <hint>Digite o nome do local em que o Trabalho de ConclusÃ£o de Curso foi defendido.</hint>
+        <required>Digite o local.</required>
+        </field>    
+
+        <field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>date</dc-element>
+        <dc-qualifier></dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>Data de defesa</label>
+        <input-type>date</input-type>
+        <hint>Digite a data em que o Trabalho de ConclusÃ£o de Curso foi defendido.</hint>
+        <required></required>
+        </field>     
+        
+        <field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>degree</dc-element>
+        <dc-qualifier>graduation</dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>Curso*</label>
+        <input-type>onebox</input-type>
+        <hint>Digite o nome do curso o qual Trabalho de ConclusÃ£o de Curso esta vinculado.</hint>
+        <required>Digite o curso.</required>
+        </field> 
+
+        <field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>degree</dc-element>
+        <dc-qualifier>level</dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>NÃ¯Ã¯Ã¯vel*</label>
+        <input-type value-pairs-name="typ5">dropdown</input-type>
+        <hint>Selecione o nÃ¯vel.</hint>
+        <required>Digite o nÃ¯vel.</required>
+        </field> 
+	</page>
+</form>

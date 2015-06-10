@@ -130,8 +130,8 @@
        <repeatable>false</repeatable>
        <label>InstituiÃ§Ã£o*</label>
        <input-type>onebox</input-type>
-       <hint>Digite a instituiÃ§Ã£o a qual a tese ou dissertaÃ§Ã£o tem vÃ¯nculo.</hint>
-       <required>Digite a instituicao de vÃ¯nculo.</required>
+       <hint>Digite o nome da instituiÃ§Ã£o a qual a tese ou dissertaÃ§Ã£o tem vÃ¯nculo.</hint>
+       <required>Digite o nome da instituicao de vÃ¯nculo.</required>
       </field>
 
       <field>
