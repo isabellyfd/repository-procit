@@ -5,7 +5,7 @@
         <dc-schema>dc</dc-schema>
         <dc-element>contributor</dc-element>
         <dc-qualifier>author</dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable>true</repeatable>
         <label>Remetente*</label>
         <input-type>name</input-type>
         <hint>Digite o nome do remetente da correspondÃªncia.</hint>

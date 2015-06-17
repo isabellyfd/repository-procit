@@ -61,7 +61,7 @@
         <dc-qualifier>abstract</dc-qualifier>
         <repeatable>false</repeatable>
         <label>Resumo*</label>
-        <input-type>onebox</input-type>
+        <input-type>textarea</input-type>
         <hint>Digite o resumo (em portuguÃªs) do Trabalho de ConclusÃ£o de Curso.</hint>
         <required>Digite resumo do TCC.</required>
     	</field>
@@ -69,10 +69,10 @@
     	<field>
         <dc-schema>dc</dc-schema>
         <dc-element>description</dc-element>
-        <dc-qualifier>abstract</dc-qualifier>
+        <dc-qualifier>abstractx</dc-qualifier>
         <repeatable>false</repeatable>
         <label>Resumo (Outro idioma)</label>
-        <input-type>onebox</input-type>
+        <input-type>textarea</input-type>
         <hint>Digite o resumo (abstract) do Trabalho de ConclusÃ£o de Curso em outro idioma.</hint>
         <required></required>
     	</field>
@@ -124,7 +124,7 @@
         <field>
         <dc-schema>dc</dc-schema>
         <dc-element>degree</dc-element>
-        <dc-qualifier>department</dc-qualifier>
+        <dc-qualifier>departament</dc-qualifier>
         <repeatable>false</repeatable>
         <label>Departamento*</label>
         <input-type>onebox</input-type>
@@ -175,5 +175,39 @@
         <hint>Selecione o nÃ¯vel.</hint>
         <required>Digite o nÃ¯vel.</required>
         </field> 
+
+        <field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>format</dc-element>
+        <dc-qualifier>extent</dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>ExtensÃ£o</label>
+        <input-type>onebox</input-type>
+        <hint>Digite o número de pÃ¡ginas refentes ao Trabalho de ConclusÃ£o de Curso.</hint>
+        <required></required>
+        </field> 
+
+        <field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>format</dc-element>
+        <dc-qualifier></dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>Formato</label>
+        <input-type>onebox</input-type>
+        <hint>Digite o formato do arquivo.</hint>
+        <required></required>
+        </field> 
+
+        <field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>rigths</dc-element>
+        <dc-qualifier>holder</dc-qualifier>
+        <repeatable>false</repeatable>
+        <label>Direitos</label>
+        <input-type>onebox</input-type>
+        <hint>Digite quem detem os direitos do Trabalho de ConclusÃ£o de Curso.</hint>
+        <required></required>
+        </field> 
+
 	</page>
 </form>
