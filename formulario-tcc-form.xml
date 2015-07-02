@@ -1,6 +1,6 @@
 <form name="TCC">
-	<page number="1">
-		<field>
+  <page number="1">
+    <field>
         <dc-schema>dc</dc-schema>
         <dc-element>contributor</dc-element>
         <dc-qualifier>author</dc-qualifier>
@@ -9,9 +9,9 @@
         <input-type>name</input-type>
         <hint>Digite o nome do autor(es) do Trabalho de ConclusÃ£o de Curso</hint>
         <required>Digite pelo menos o nome de um autor</required>
-    	</field>
+      </field>
 
-    	<field>
+      <field>
         <dc-schema>dc</dc-schema>
         <dc-element>contributor</dc-element>
         <dc-qualifier>advisor</dc-qualifier>
@@ -20,9 +20,9 @@
         <input-type>name</input-type>
         <hint>Digite o nome do orientador(es) do Trabalho de ConclusÃ£o de Curso.</hint>
         <required>Digite pelo menos o nome de um orientador.</required>
-    	</field>
+      </field>
 
-    	<field>
+      <field>
         <dc-schema>dc</dc-schema>
         <dc-element>contributor</dc-element>
         <dc-qualifier>coadvisor</dc-qualifier>
@@ -31,9 +31,9 @@
         <input-type>name</input-type>
         <hint>Digite o nome do coorientador(es) do Trabalho de ConclusÃ£o de Curso.</hint>
         <required></required>
-    	</field>
+      </field>
 
-    	<field>
+      <field>
         <dc-schema>dc</dc-schema>
         <dc-element>title</dc-element>
         <dc-qualifier></dc-qualifier>
@@ -42,9 +42,9 @@
         <input-type>onebox</input-type>
         <hint>Digite o nome do tÃ¯tulo do Trabalho de ConclusÃ£o de Curso.</hint>
         <required>Digite o tÃ¯tulo do TCC.</required>
-    	</field>
+      </field>
 
-		<field>
+    <field>
         <dc-schema>dc</dc-schema>
         <dc-element>type</dc-element>
         <dc-qualifier></dc-qualifier>
@@ -53,9 +53,9 @@
         <input-type value-pairs-name="typ4">dropdown</input-type>
         <hint>Selecione o tipo do domumento.</hint>
         <required>Selecione o tipo do domumento.</required>
-    	</field>
+      </field>
 
-    	<field>
+      <field>
         <dc-schema>dc</dc-schema>
         <dc-element>description</dc-element>
         <dc-qualifier>abstract</dc-qualifier>
@@ -64,9 +64,9 @@
         <input-type>textarea</input-type>
         <hint>Digite o resumo (em portuguÃªs) do Trabalho de ConclusÃ£o de Curso.</hint>
         <required>Digite resumo do TCC.</required>
-    	</field>
+      </field>
 
-    	<field>
+      <field>
         <dc-schema>dc</dc-schema>
         <dc-element>description</dc-element>
         <dc-qualifier>abstractx</dc-qualifier>
@@ -75,7 +75,7 @@
         <input-type>textarea</input-type>
         <hint>Digite o resumo (abstract) do Trabalho de ConclusÃ£o de Curso em outro idioma.</hint>
         <required></required>
-    	</field>
+      </field>
         
         <field>
         <dc-schema>dc</dc-schema>
@@ -207,7 +207,6 @@
         <input-type>onebox</input-type>
         <hint>Digite quem detem os direitos do Trabalho de ConclusÃ£o de Curso.</hint>
         <required></required>
-        </field> 
-
-	</page>
+        </field>
+  </page>
 </form>

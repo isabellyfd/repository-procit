@@ -8,8 +8,8 @@
         <repeatable>true</repeatable>
         <label>Remetente*</label>
         <input-type>name</input-type>
-        <hint>Digite o nome do remetente da correspondÃªncia.</hint>
-        <required>Por favor, digite o nome do remetente da correspondÃªncia.</required>
+        <hint>Digite o nome do remetente da correspondência.</hint>
+        <required>Por favor, digite o nome do remetente da correspondência.</required>
       </field>
      
       <field>
@@ -17,10 +17,10 @@
        <dc-element>contributor</dc-element>
        <dc-qualifier></dc-qualifier>
        <repeatable>false</repeatable>
-       <label>DestinatÃ¡rio*</label>
+       <label>Destinatário*</label>
        <input-type>name</input-type>
-       <hint>Digite o nome do destinatÃ¡rio da correspondÃªncia</hint>
-       <required>Por favor, digite o nome do destinatÃ¡rio da correspondÃªncia.</required>
+       <hint>Digite o nome do destinatário da correspondência</hint>
+       <required>Por favor, digite o nome do destinatário da correspondência.</required>
       </field>
 
       <field>
@@ -30,8 +30,8 @@
        <repeatable>false</repeatable>
        <label>Identificador*</label>
        <input-type>onebox</input-type>
-       <hint>Digite o identificador da correspondÃªncia</hint>
-       <required>Por favor, digite o identificador da correspondÃªncia.</required>
+       <hint>Digite o identificador da correspondência</hint>
+       <required>Por favor, digite o identificador da correspondência.</required>
       </field>
 
       <field>
@@ -39,10 +39,10 @@
        <dc-element>title</dc-element>
        <dc-qualifier></dc-qualifier>
        <repeatable>false</repeatable>
-       <label>TÃ¯tulo*</label>
+       <label>Título*</label>
        <input-type>onebox</input-type>
-       <hint>Digite o nome do tÃ¯tulo da correspondÃªncia</hint>
-       <required>Por favor, digite o nome do tÃ¯tulo da correspondÃªncia.</required>
+       <hint>Digite o nome do título da correspondência</hint>
+       <required>Por favor, digite o nome do título da correspondência.</required>
       </field>
 
       <field>
@@ -52,7 +52,7 @@
        <repeatable>false</repeatable>
        <label>Local</label>
        <input-type>onebox</input-type>
-       <hint>Digite o local onde foi escrita a correspondÃªncia</hint>
+       <hint>Digite o local onde foi escrita a correspondência</hint>
        <required></required>
       </field>
 
@@ -63,7 +63,7 @@
        <repeatable>false</repeatable>
        <label>Data*</label>
        <input-type>date</input-type>
-       <hint>Digite a data em que foi escrita a correspondÃªncia</hint>
+       <hint>Digite a data em que foi escrita a correspondência</hint>
        <required>Digite a data.</required>
       </field>
 
@@ -74,7 +74,7 @@
        <repeatable>true</repeatable>
        <label>Palavras-Chave</label>
        <input-type>onebox</input-type>
-       <hint>Digite as palavras-chave desta correspondÃªncia.</hint>
+       <hint>Digite as palavras-chave desta correspondência.</hint>
        <required></required>
       </field>
 
@@ -83,9 +83,9 @@
        <dc-element>format</dc-element>
        <dc-qualifier>extent</dc-qualifier>
        <repeatable>false</repeatable>
-       <label>NÃºmero de pÃ¡ginas</label>
+       <label>Número de páginas</label>
        <input-type>onebox</input-type>
-       <hint>Digite o nÃºmero de pÃ¡ginas na correspondÃªncia</hint>
+       <hint>Digite o número de páginas na correspondência</hint>
        <required></required>
       </field>
 
@@ -96,7 +96,7 @@
        <repeatable>false</repeatable>
        <label>Idioma*</label>
        <input-type>onebox</input-type>
-       <hint>Digite o idioma desta correspondÃªncia.</hint>
+       <hint>Digite o idioma desta correspondência.</hint>
        <required>Digite o idioma</required>
       </field>
       
@@ -107,7 +107,7 @@
        <repeatable>false</repeatable>
        <label>Resumo*</label>
        <input-type>textarea</input-type>
-       <hint>Digite o resumo desta correspondÃªncia.</hint>
+       <hint>Digite o resumo desta correspondência.</hint>
        <required>Por favor, digite o resumo.</required>
       </field>
 
@@ -127,9 +127,9 @@
        <dc-element>description</dc-element>
        <dc-qualifier>provenance</dc-qualifier>
        <repeatable>false</repeatable>
-       <label>ProveniÃªncia</label>
+       <label>Proveniência</label>
        <input-type>onebox</input-type>
-       <hint>ProveniÃªncia do acervo</hint>
+       <hint>Proveniência do acervo</hint>
        <required></required>
       </field>
 
@@ -162,7 +162,7 @@
        <repeatable>false</repeatable>
        <label>Detentor de direitos</label>
        <input-type>onebox</input-type>
-       <hint>Digite o nome do detentor de direitos dessa correspondÃªncia.</hint>
+       <hint>Digite o nome do detentor de direitos dessa correspondência.</hint>
 
        <required></required>
       </field>

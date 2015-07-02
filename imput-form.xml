@@ -1113,18 +1113,7 @@
         <repeatable>false</repeatable>
         <label>ExtensÃ£o</label>
         <input-type>onebox</input-type>
-        <hint>Digite o número de pÃ¡ginas refentes ao Trabalho de ConclusÃ£o de Curso.</hint>
-        <required>Digite o curso.</required>
-        </field> 
-
-        <field>
-        <dc-schema>dc</dc-schema>
-        <dc-element>format</dc-element>
-        <dc-qualifier>extent</dc-qualifier>
-        <repeatable>false</repeatable>
-        <label>ExtensÃ£o</label>
-        <input-type>onebox</input-type>
-        <hint>Digite o número de pÃ¡ginas refentes ao Trabalho de ConclusÃ£o de Curso.</hint>
+        <hint>Digite o nÃºmero de pÃ¡ginas refentes ao Trabalho de ConclusÃ£o de Curso.</hint>
         <required></required>
         </field> 
 
