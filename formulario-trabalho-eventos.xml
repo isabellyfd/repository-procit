@@ -1,0 +1,161 @@
+<!--
+dc.contributor.author (mais de uma autoria, portanto ativar opção Add)[ok]
+
+dc.date.issued [ok]
+
+dc.identifier.citation [ok]
+
+dc.description [ok]
+
+dc.description.abstract (Português)[ok]
+
+dc.description.abstract (Inglês e demais idiomas) [ok]
+
+dc.language.iso (português) [ok]
+
+dc.publisher [ok]
+
+dc.rights [ok]
+
+dc.subject (mais de uma palavra-chave, portanto ativar opção Add)[ok]
+
+dc.title [ok]
+
+dc.type [ok]
+
+-->
+
+<form name="TEventos">
+ <page number="1">
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>contributor</dc-element>
+   <dc-qualifier>author</dc-qualifier>
+   <repeatable>true</repeatable>
+   <label>Autor(es)*</label>
+   <input-type>name</input-type>
+   <hint>Digite o(s) nome(s) do(s) autor(es) do Trabalho.</hint>
+   <required>Digite o nome de pelo menos um autor.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>title</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Título*</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o título do Trabalho.</hint>
+   <required>Digite o título.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>date</dc-element>
+   <dc-qualifier>issued</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Data</label>
+   <input-type>date</input-type>
+   <hint>Data em que o Trabalho foi apresentado.</hint>
+   <required></required>
+  </field> 
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>description</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Descrição*</label>
+   <input-type>textarea</input-type>
+   <hint>Digite uma breve descrição sobre o Tabalho.</hint>
+   <required>Digite a descrição.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>description</dc-element>
+   <dc-qualifier>abstract</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Resumo*</label>
+   <input-type>textarea</input-type>
+   <hint>Digite o resumo do Trabalho.</hint>
+   <required>Digite o resumo.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>description</dc-element>
+   <dc-qualifier>abstractx</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Resumo (Outro idioma)</label>
+   <input-type>textarea</input-type>
+   <hint>Digite o resumo(abstract) do Trabalho em outro idioma.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>language</dc-element>
+   <dc-qualifier>iso</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Idioma*</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o idioma predominate no Tabalho.</hint>
+   <required>Digite o idioma.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>subject</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable>true</repeatable>
+   <label>Palavra-Chave</label>
+   <input-type>onebox</input-type>
+   <hint>Digite a(s) palavra(s)-chave referente(s) ao Trabalho.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>publisher</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Editor</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o nome da pessoa responsável pela edição desse Trabalho na plataforma.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>type</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Tipo*</label>
+   <input-type value-pairs-name="typ6">dropdown</input-type>
+   <hint>Selecione o tipo do Trabalho.</hint>
+   <required>Selecione o tipo do Trabalho.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>rights</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Direitos</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o nome a instituição de detem os diereitos do Trabalho.</hint>
+   <required></required>			
+  </field>
+
+ </page>
+</form>
+
+<value-pairs value-pairs-name="typ6" dc-term="type">
+     <pair>
+       <displayed-value>Trabalho Apresentado em Eventos</displayed-value>
+       <stored-value>Trabalho Apresentado em Eventos</stored-value>
+     </pair>
+</value-pairs>
+
+
