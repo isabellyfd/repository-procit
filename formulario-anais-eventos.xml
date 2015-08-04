@@ -1,0 +1,137 @@
+<!--Formulário para Anais de Eventos
+
+
+dc.contributor.author (mais de uma autoria, portanto ativar opção Add) [ok]
+
+dc.date.issued [ok]
+
+dc.format.mimetype (?)
+
+dc.language.iso (Português) [ok]
+
+dc.description.abstract (Inglês e demais idiomas) [ok]
+
+dc.rights
+
+dc.subject [ok]
+
+dc.title [ok]
+
+dc.type
+
+dc.contributor.event [ok]
+
+-->
+
+<form name="AEventos">
+ <page number="1">
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>contributor</dc-element>
+   <dc-qualifier>author</dc-qualifier>
+   <repeatable>true</repeatable>
+   <label>Autor(es)*</label>
+   <input-type>name</input-type>
+   <hint>Digite o(s) nome(s) do(s) autor(es) do Evento.</hint>
+   <required>Digite o nome de pelo menos um autor.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>date</dc-element>
+   <dc-qualifier>issued</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Data</label>
+   <input-type>date</input-type>
+   <hint>Digite a data do Evento.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>title</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Título*</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o título do Evento.</hint>
+   <required>Digite o título.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>description</dc-element>
+   <dc-qualifier>abastractx</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Resumo (Inglês e demais idiomas)*</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o resumo do Evento.</hint>
+   <required>Digite o resumo.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>subject</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Palavra-Chave</label>
+   <input-type>onebox</input-type>
+   <hint>Digite a(s) palavra(s) chave referentes ao Evento.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>language</dc-element>
+   <dc-qualifier>iso</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Idioma*</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o idioma predominante.</hint>
+   <required>Digite o idioma.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>contributor</dc-element>
+   <dc-qualifier>event</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Contribuinte</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o(s) contribuinte(s) do Evento.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>type</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Tipo*</label>
+   <input-type value-pairs-name="typ8">dropdown</input-type>
+   <hint>Selecione o tipo.</hint>
+   <required>Selecione o tipo.</required>			
+  </field>
+
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>rights</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Direitos</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o nome a instituição de detem os diereitos do Evento.</hint>
+   <required></required>			
+  </field>
+
+ </page>
+</form>
+
+
+<value-pairs value-pairs-name="typ8" dc-term="type">
+     <pair>
+       <displayed-value>Eventos</displayed-value>
+       <stored-value>Eventos</stored-value>
+     </pair>
+</value-pairs>
