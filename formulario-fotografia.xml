@@ -27,3 +27,18 @@ dc.format.original
 dc.format.color
 
 dc.description.conservation -->
+
+<form name="fotografia">
+ <page number="1">
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>contributor</dc-element>
+   <dc-qualifier>author</dc-qualifier>
+   <repeatable>true</repeatable>
+   <label>Autor(es)*</label>
+   <input-type>name</input-type>
+   <hint>Digite o(s) nome(s) do(s) autor(es) do Evento.</hint>
+   <required>Digite o nome de pelo menos um autor.</required>			
+  </field>
+ </page>
+</form>
