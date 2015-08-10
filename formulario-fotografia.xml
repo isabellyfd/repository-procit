@@ -1,32 +1,34 @@
-<!-- dc.contributor.author
+<!-- dc.contributor.author [ok]
 
-dc.coverage.temporal
+dc.coverage.temporal [ok]
 
-dc.date.issued
+dc.date.issued [ok]
 
-dc.description
+dc.description [ok]
 
-dc.format.medium
+dc.format.medium [ok]
 
-dc.format.mimetype
+dc.format.mimetype [ok]
 
-dc.language.iso
+dc.language.iso o[k]
 
 dc.rights
 
-dc.subject
+dc.subject [ok]
 
-dc.title
+dc.title [ok]
 
-dc.type
+dc.type [ok]
 
-dc.identifier
+dc.identifier [ok]
 
-dc.format.original
+dc.format.original [precisa ser colocado no repositorio] [ok]
 
-dc.format.color
+dc.format.color [precisa ser colocado no repositorio]
 
-dc.description.conservation -->
+dc.description.conservation  [precisa ser colocado no repositorio] [ok]
+
+-->
 
 <form name="fotografia">
  <page number="1">
@@ -35,10 +37,174 @@ dc.description.conservation -->
    <dc-element>contributor</dc-element>
    <dc-qualifier>author</dc-qualifier>
    <repeatable>true</repeatable>
-   <label>Autor(es)*</label>
+   <label>Autor*</label>
    <input-type>name</input-type>
-   <hint>Digite o(s) nome(s) do(s) autor(es) do Evento.</hint>
-   <required>Digite o nome de pelo menos um autor.</required>			
+   <hint>Digite o nome do autor da Fotografia.</hint>
+   <required>Digite o nome do autor.</required>			
   </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>title</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Título*</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o título da Fotografia.</hint>
+   <required>Digite o título.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>description</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Descrição*</label>
+   <input-type>textarea</input-type>
+   <hint>Digite a descrição referente à Fotografia.</hint>
+   <required>Digite a descrição.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>date</dc-element>
+   <dc-qualifier>issued</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Data de publicação</label>
+   <input-type>date</input-type>
+   <hint>Digite a data de publicação da Fotografia.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>description</dc-element>
+   <dc-qualifier>conservation</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Conservação</label>
+   <input-type>textarea</input-type>
+   <hint>Digite o estado de conservação da Fotografia.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>language</dc-element>
+   <dc-qualifier>iso</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Idioma*</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o idioma.</hint>
+   <required>Digite o idioma.</required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>subject</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable>true</repeatable>
+   <label>Palavra-Chave</label>
+   <input-type>onebox</input-type>
+   <hint>Digite a(s) palavra(s) chave(s) referente(s) à Fotografia.</hint>
+   <required></required>			
+  </field>
+  
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>coverage</dc-element>
+   <dc-qualifier>temporal</dc-qualifier>
+   <repeatable>true</repeatable>
+   <label>Caracteristica(s) Temporal(is)</label>
+   <input-type>onebox</input-type>
+   <hint>Digite a(s) característica(s) temporais encontradas na Fotografia.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>format</dc-element>
+   <dc-qualifier>medium</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Meio Físico</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o meio em que a Fotografia foi tirada.</hint>
+   <required></required>	
+  </field>		
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>coverage</dc-element>
+   <dc-qualifier>temporal</dc-qualifier>
+   <repeatable>true</repeatable>
+   <label>Caracteristica(s) Temporal(is)</label>
+   <input-type>onebox</input-type>
+   <hint>Digite a(s) característica(s) temporais encontradas na Fotografia.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>identifier</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Identificador</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o número que identifica a Fotografia.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>type</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Tipo</label>
+   <input-type value-pairs-name="typ9">dropdown</input-type>
+   <hint>Selecione o tipo do documento.</hint>
+   <required></required>			
+  </field>
+
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>format</dc-element>
+   <dc-qualifier>original</dc-qualifier>
+   <repeatable></repeatable>
+   <label>Formato</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o formato original do arquivo.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>format</dc-element>
+   <dc-qualifier>color</dc-qualifier>
+   <repeatable>true</repeatable>
+   <label>Cor(es)</label>
+   <input-type>onebox</input-type>
+   <hint>Digite a(s) cor(es) prefdominante(s) na Fotografia.</hint>
+   <required></required>			
+  </field>
+
+  <field>
+   <dc-schema>dc</dc-schema>
+   <dc-element>rights</dc-element>
+   <dc-qualifier></dc-qualifier>
+   <repeatable></repeatable>
+   <label>Direitos</label>
+   <input-type>onebox</input-type>
+   <hint>Digite o nome a instituição de detem os diereitos sobre a Fotografia.</hint>
+   <required></required>			
+  </field>
+
  </page>
 </form>
+
+<value-pairs value-pairs-name="typ9" dc-term="type">
+     <pair>
+       <displayed-value>Fotografia</displayed-value>
+       <stored-value>Fotografia</stored-value>
+     </pair>
+</value-pairs>
