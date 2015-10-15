@@ -1,0 +1,73 @@
+### está organizado de forma: metadado - Obrigatoriedade - referente a só uma ou mais tipologias
+### se a tipologia não estiver, aparece pra todos os formulários.
+
+dc.type (OBRIGATORIO)
+dc.title (OBRIGATÓRIO)
+dc.title.alternative (OPCIONAL)
+dc.rights (OBRIGATORIO)
+dc.date.avaliable 
+dc.date.issued (OBRIGATORIO) >> TESE, DISSERTAÇÃO, TCC
+dc.date.issued (OBRIGATORIO) >> ARTIGO, ATIGO DE EVENTO, LIVRO CAPITULO DE LIVRO, RELATORIO DE PESQUISA, OUTROS.
+dc.creator (OBRIGATORIO) >> ARTIGO, ARTIGO DE EVENTO, LIVRO, CAPITULO DE LIVRO, RELATORIO DE PESQUISA E OUTROS.
+dc.creator (OBRIGATORIO) >> TESE, DISSERTAÇÃO, TCC
+dc.creator.Lattes (OBRIGATORIO) >> TESE, DISSERTAÇÃO, TCC
+dc.creator.ID (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.advisor1 (OBRIGATORIO) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.advisor1Lattes (OBRIGATORIO) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.advisor1ID (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.advisor2 (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.advisor2Lattes (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.advisor2ID (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.advisor-co1 (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.advisor-co1Lattes (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.advisor-co1ID (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.advisor-co2 (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.advisor-co2Lattes (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.advisor-co2ID (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer1 (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer1Lattes (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer1ID (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer2 (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer2Lattes (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer2ID (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer3 (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer3Lattes (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer3ID (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer4 (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer4Lattes (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer4ID (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer5 (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer5Lattes (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.contributor.refereer5ID (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.relation.ispartof (OBRIGATORIO) >> ARTIGO
+dc.relation.ispartof (OBRIGATORIO) >> ARTIGO DE EVENTO
+dc.relation.ispartof (OBRIGATORIO) >> LIVRO
+dc.relation.ispartof (OBRIGATORIO) >> RELATORIO DE PESQUISA
+dc.relation.ispartof (OBRIGATORIO) >> LIVROPART
+dc.citation.volume (OPCIONAL) >> ARTIGO
+dc.citation.issue (OPCIONAL) >> ARTIGO 
+dc.citation.issue (OBRIGATORIO) >> ARTIGO DE EVENTO
+dc.citation.issue (OPCIONAL) >> LIVRO
+dc.citation.spage (OPCIONAL) >> ARTIGO, CAP DE LIVRO
+dc.citation.epage (OPCIONAL) >> ARTIGO, CAP DE LIVRO
+dc.audience.educationlevel (OPCIONAL) >> OUTRO
+dc.description (OPCIONAL) >> OUTRO
+dc.publisher.initials (OBRIGATÓRIO)
+dc.publisher.departament (OBRIGATORIO) >> TESTE, DISSERTAÇÃO, TCC
+dc.publisher.program (OBRIGATORIO) >> TESE, DISSERTAÇÃO
+dc.publisher.country (OBRIGATORIO)
+dc.language (OBRIGATORIO)
+dc.relation.references (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.identifier.doi (OPCIONAL)
+dc.identifier.isbn (OPCIONAL) >> CAP DE LIVRO, LIVRO
+dc.identifier.isbn (OPCIONAL) >> ARTIGO, ARTIGO DE EVENTOS
+dc.subject (OBRIGATORIO)
+dc.subject.cnpq (OBRIGATORIO)
+dc.description.resumo (OBRIGATORIO)
+dc.description.abstract (OBRIGATORIO)
+dc.description.sponsorship (OPCIONAL)
+dc.relation (OPCIONAL) >> TESE, DISSERTAÇÃO, TCC
+dc.description (OPCIONAL) >> LIVRO
+dc.identifier.citation (OPCIONAL)
+
+
