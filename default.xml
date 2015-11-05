@@ -71,7 +71,7 @@
        <dc-element>type</dc-element>
        <dc-qualifier></dc-qualifier>
        <repeatable>false</repeatable>
-       <label>Tipo*</label>
+       <label>Tipo de Documento:</label>
        <input-type value-pairs-name="typ2">dropdown</input-type>
        <hint>Selecione o tipo</hint>
        <required>Por favor, selecione o tipo.</required>
@@ -145,6 +145,7 @@
        <required>Selecione o programa</required>
       </field>
 
+ <!--
       <field>
        <dc-schema>dc</dc-schema>
        <dc-element>degree</dc-element>
@@ -155,7 +156,7 @@
        <hint>Digite em que local a tese ou dissertação foi defendida.</hint>
        <required>Digite o local.</required>
       </field>
-
+-->
 
       <field>
        <dc-schema>dc</dc-schema>
@@ -173,10 +174,10 @@
        <dc-element>degree</dc-element>
        <dc-qualifier>level</dc-qualifier>
        <repeatable>false</repeatable>
-       <label>NÃ¯vel*</label>
+       <label>Nível*</label>
        <input-type value-pairs-name="typ3">dropdown</input-type>
-       <hint>Selecione o nÃ¯vel.</hint>
-       <required>Selecione o nÃ¯vel.</required>
+       <hint>Selecione o nível.</hint>
+       <required>Selecione o nível.</required>
       </field>
 
       <field>
@@ -184,11 +185,96 @@
        <dc-element>description</dc-element>
        <dc-qualifier>sponsorship</dc-qualifier>
        <repeatable>true</repeatable>
-       <label>OrgÃ£o suplementar</label>
+       <label>Agência de Formento</label>
        <input-type>onebox</input-type>
        <hint>Digite o nome do instituiÃ§Ã£o patrocinadora.</hint>
        <required></required>
       </field>
 
+<!-- modificações ibict -->
+
+ 	<field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>rights</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Permissão de acesso:</label>
+         <input-type value-pairs-name="common_rights">dropdown</input-type> 
+         <hint> Informe o tipo de acesso ao documento</hint>
+         <required> Informe o tipo de acesso ao documento.</required>
+       </field>
+
+	 <field>
+	<dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>available</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data de liberação para acesso:</label>
+         <input-type>date</input-type>
+         <hint>Data de disponibilidade do registro. Esta pode ser diferente  da disponibilização do texto completo, no caso dos embargos ou restrições de acesso ao documento completo.</hint>
+         <required></required>
+       </field>
+
+	<field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>creator</dc-element>
+         <dc-qualifier>Lattes</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do autor:</label>
+		  <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
+         <input-type>onebox</input-type>
+         <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe a URL do currículo lattes do autor.</hint>
+         <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe a URL do currículo lattes do autor.&lt;/font&gt;
+		           </required>
+       </field>
+
+      <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>publisher</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Nome da instituição por extenso:</label>
+		 <input-type value-pairs-name="common_ies">dropdown</input-type>
+         <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Nome da instituição por extenso.</hint>
+		 <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Nome da instituição por extenso.&lt;/font&gt;</required>
+       </field>
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>publisher</dc-element>
+         <dc-qualifier>initials</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Sigla da instituição:</label>
+		 <input-type value-pairs-name="common_sigla_ies">dropdown</input-type>
+         <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt;Sigla da instituição.</hint>
+         <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Sigla da instituição.&lt;/font&gt;</required>
+       </field>
+
+    
+
+     <field>
+	 <dc-schema>dc</dc-schema>
+         <dc-element>publisher</dc-element>
+         <dc-qualifier>country</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>País:</label>
+          <input-type value-pairs-name="common_publisher_country">dropdown</input-type> 
+         <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe o país.</hint>
+         <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe o país.&lt;/font&gt;</required>
+       </field>
+
+
+     <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>relation</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Relação:</label>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
+         <input-type>textarea</input-type>
+         <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Outros recursos utilizados para elaboração deste documento. </hint>
+         <required></required>
+       </field>
      </page> 
     </form>
+

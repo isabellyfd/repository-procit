@@ -132,17 +132,7 @@ dc.description.conservation  [precisa ser colocado no repositorio] [ok]
    <required></required>	
   </field>		
 
-  <field>
-   <dc-schema>dc</dc-schema>
-   <dc-element>coverage</dc-element>
-   <dc-qualifier>temporal</dc-qualifier>
-   <repeatable>true</repeatable>
-   <label>Caracteristica(s) Temporal(is)</label>
-   <input-type>onebox</input-type>
-   <hint>Digite a(s) característica(s) temporais encontradas na Fotografia.</hint>
-   <required></required>			
-  </field>
-
+  
   <field>
    <dc-schema>dc</dc-schema>
    <dc-element>identifier</dc-element>

@@ -37,18 +37,18 @@
         <dc-schema>dc</dc-schema>
         <dc-element>title</dc-element>
         <dc-qualifier></dc-qualifier>
-        <repeatable>false</repeatable>
-        <label>TÃ¯tulo*</label>
+        <repeatable></repeatable>
+        <label>Título*</label>
         <input-type>onebox</input-type>
-        <hint>Digite o nome do tÃ¯tulo do Trabalho de ConclusÃ£o de Curso.</hint>
-        <required>Digite o tÃ¯tulo do TCC.</required>
+        <hint>Digite o nome do título do Trabalho de ConclusÃ£o de Curso.</hint>
+        <required>Digite o título do TCC.</required>
       </field>
 
     <field>
         <dc-schema>dc</dc-schema>
         <dc-element>type</dc-element>
         <dc-qualifier></dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>Tipo*</label>
         <input-type value-pairs-name="typ4">dropdown</input-type>
         <hint>Selecione o tipo do domumento.</hint>
@@ -59,7 +59,7 @@
         <dc-schema>dc</dc-schema>
         <dc-element>description</dc-element>
         <dc-qualifier>abstract</dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>Resumo*</label>
         <input-type>textarea</input-type>
         <hint>Digite o resumo (em portuguÃªs) do Trabalho de ConclusÃ£o de Curso.</hint>
@@ -70,7 +70,7 @@
         <dc-schema>dc</dc-schema>
         <dc-element>description</dc-element>
         <dc-qualifier>abstractx</dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>Resumo (Outro idioma)</label>
         <input-type>textarea</input-type>
         <hint>Digite o resumo (abstract) do Trabalho de ConclusÃ£o de Curso em outro idioma.</hint>
@@ -81,7 +81,7 @@
         <dc-schema>dc</dc-schema>
         <dc-element>language</dc-element>
         <dc-qualifier>iso</dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>Idioma*</label>
         <input-type>onebox</input-type>
         <hint>Digite o idioma que predomina no Trabalho de ConclusÃ£o de Curso.</hint>
@@ -103,29 +103,41 @@
         <dc-schema>dc</dc-schema>
         <dc-element>date</dc-element>
         <dc-qualifier>issued</dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>Data de publicaÃ§Ã£o</label>
         <input-type>date</input-type>
         <hint>Digite a data em que o Trabalho de ConclusÃ£o de Curso foi publicado.</hint>
         <required></required>
         </field>
-
+	</page>
+	<page number="2">
         <field>
         <dc-schema>dc</dc-schema>
         <dc-element>degree</dc-element>
         <dc-qualifier>grantor</dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>InstituiÃ§Ã£o*</label>
         <input-type>onebox</input-type>
         <hint>Digite o nome da instituiÃ§Ã£o a qual o Trabalho de ConclusÃ£o de Curso e vinculado.</hint>
         <required>Digite o nome da instituiÃ§Ã£o.</required>
+        </field>
+	
+	<field>
+        <dc-schema>dc</dc-schema>
+        <dc-element>description</dc-element>
+        <dc-qualifier>sponorship</dc-qualifier>
+        <repeatable></repeatable>
+        <label>Departamento*</label>
+        <input-type>onebox</input-type>
+        <hint>Digite o nome do departamento em que o Trabalho de ConclusÃ£o de Curso foi desenvolvido.</hint>
+        <required>Digite o nome do departamento.</required>
         </field>
 
         <field>
         <dc-schema>dc</dc-schema>
         <dc-element>degree</dc-element>
         <dc-qualifier>departament</dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>Departamento*</label>
         <input-type>onebox</input-type>
         <hint>Digite o nome do departamento em que o Trabalho de ConclusÃ£o de Curso foi desenvolvido.</hint>
@@ -136,7 +148,7 @@
         <dc-schema>dc</dc-schema>
         <dc-element>degree</dc-element>
         <dc-qualifier>local</dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>Local*</label>
         <input-type>onebox</input-type>
         <hint>Digite o nome do local em que o Trabalho de ConclusÃ£o de Curso foi defendido.</hint>
@@ -147,7 +159,7 @@
         <dc-schema>dc</dc-schema>
         <dc-element>date</dc-element>
         <dc-qualifier></dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>Data de defesa</label>
         <input-type>date</input-type>
         <hint>Digite a data em que o Trabalho de ConclusÃ£o de Curso foi defendido.</hint>
@@ -158,7 +170,7 @@
         <dc-schema>dc</dc-schema>
         <dc-element>degree</dc-element>
         <dc-qualifier>graduation</dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>Curso*</label>
         <input-type>onebox</input-type>
         <hint>Digite o nome do curso o qual Trabalho de ConclusÃ£o de Curso esta vinculado.</hint>
@@ -169,7 +181,7 @@
         <dc-schema>dc</dc-schema>
         <dc-element>degree</dc-element>
         <dc-qualifier>level</dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>NÃ¯vel*</label>
         <input-type value-pairs-name="typ5">dropdown</input-type>
         <hint>Selecione o nÃ¯vel.</hint>
@@ -180,7 +192,7 @@
         <dc-schema>dc</dc-schema>
         <dc-element>format</dc-element>
         <dc-qualifier>extent</dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>ExtensÃ£o</label>
         <input-type>onebox</input-type>
         <hint>Digite o número de pÃ¡ginas refentes ao Trabalho de ConclusÃ£o de Curso.</hint>
@@ -191,7 +203,7 @@
         <dc-schema>dc</dc-schema>
         <dc-element>format</dc-element>
         <dc-qualifier></dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>Formato</label>
         <input-type>onebox</input-type>
         <hint>Digite o formato do arquivo.</hint>
@@ -202,7 +214,7 @@
         <dc-schema>dc</dc-schema>
         <dc-element>rigths</dc-element>
         <dc-qualifier>holder</dc-qualifier>
-        <repeatable>false</repeatable>
+        <repeatable></repeatable>
         <label>Direitos</label>
         <input-type>onebox</input-type>
         <hint>Digite quem detem os direitos do Trabalho de ConclusÃ£o de Curso.</hint>
